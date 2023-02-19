@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="/Images/Logo.png" type="image/x-icon">
+  
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- Scroll Animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Box Icon CDN  -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiar fixed-top"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/Images/Logo.png"
+              alt="Logo"
+              width="70px"
+              height="50px"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse details" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Project">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section class="homesection" id="Home">
+      <div
+        class="container home d-flex flex-column justify-content-center align-items-center"
+        data-aos="flip-right"
+      >
+        <h1 class="intro display-2">
+          Hi, my name is <span class="name">Amit Kumar Behera</span>
+        </h1>
+        <h3 class="intro display-5">
+          I am a <span class="intro-student">student</span> ,
+        </h3>
+        <h3 class="intro display-5">
+          I am learning to design <span class="name learnings"></span>
+        </h3>
+      </div>
+    </section>
+    <hr />
+    <!-- Project Section -->
+    <section id="Project">
+      <div class="container" data-aos="fade-up">
+        <h1 class="display-2 project-header" data-aos="fade-right">PROJECTS</h1>
+
+        <!-- My projects -->
+        <div class="container-fluid d-flex project-cards">
+          <div
+            class="card project-card text-bg-dark hvr-grow-shadow"
+            data-aos="fade-right"
+          >
+            <div class="card-body project-card-body">
+              <h5 class="card-title project-card-title">React Dictionary</h5>
+              <p class="card-text project-card-text">
+                A simple word Dictionary made using React library.
+              </p>
+              <a href="https://viper910.github.io/reactdictionary/"  target="_blank" class="btn btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="card project-card hvr-grow-shadow" data-aos="fade-right">
+            <div class="card-body text-bg-dark">
+              <h5 class="card-title project-card-title">Tic-Tac-Toe</h5>
+              <p class="card-text project-card-text">
+                Tic-tac-toe game made using html, css and javascript.
+              </p>
+              <a href="https://viper910.github.io/Tic-tac-toe/"  target="_blank" class="btn btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="card project-card hvr-grow-shadow" data-aos="fade-right">
+            <div class="card-body text-bg-dark">
+              <h5 class="card-title project-card-title">Fusionmart</h5>
+              <p class="card-text project-card-text">
+                An E-commerce website made using MERN stack.
+              </p>
+              <a href="https://viper910.github.io/fusionmartfrontend/" target="_blank" class="btn btn-primary">Visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="About">
+      <div class="container" >
+        <h1 class="display-2 project-header" data-aos="fade-right">About</h1>
+        <p data-aos="fade-right"><span class="keyword">class</span> <span class="function">Amit Kumar Behera</span> {</p>
+        <p class="comment" data-aos="fade-right">&nbsp;&nbsp;&nbsp;//I am passionate about learning things.</p>
+        <p class="comment" data-aos="fade-right">&nbsp;&nbsp;&nbsp;//My skills is continuously expanding.</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;<span class="function">constructor</span>( ) {</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="object">this</span>.name=<span class="string">"Amit Kumar Behera"</span>;</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="object">this</span>.birthDate=<span class="string">"15 June 2002"</span>;</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="object">this</span>.email=<span class="string">"amitkumarbehera@gmail.com"</span>;</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;&nbsp;}</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;<span class="function">education</span>( ) { </p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> [</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ <span class="string">'2020-2024'</span> : <span class="string">'Siksha o Anusandhan Btech CSE'</span> },</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ <span class="string">'2018-2020'</span> : <span class="string">'ODM Public School (11th & 12th)'</span> },</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ <span class="string">'2017-2018'</span> : <span class="string">'Venkateswar English Medium School (10th)'</span> }</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ] ;</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;} </p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;<span class="function">skills</span>( ) { </p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> [ <span class="string">'HTML/CSS/JS', 'Bootstrap', 'React.js', 'Node.js', 'Express.js', 'MongoDB', </span> <span class="skills-section"></span> &nbsp;] ;</p>
+        <p data-aos="fade-right">&nbsp;&nbsp;&nbsp;} </p>
+        <p data-aos="fade-right">&nbsp;} </p>
+      </div>
+    </section>
+    
+
+    <section id="Contact">
+        <div class="container">
+          <h1 class="display-2 project-header" data-aos="fade-right">Contact</h1>
+          <p data-aos="fade-right">Find Me on:</p>
+          <p class="d-flex justify-content-left align-items-center" data-aos="fade-right"><i class='bx bxl-linkedin'></i>&nbsp; <a class="links" href="https://www.linkedin.com/in/amit-kumar-behera-1390a521a" target="_blank">in/AmitKumarBehera</a> </p>
+          <p class="d-flex justify-content-left align-items-center" data-aos="fade-right"><i class='bx bxl-github'></i>&nbsp; <a class="links" href="https://github.com/Viper910" target="_blank">Viper910</a></p>
+          <p class="d-flex justify-content-left align-items-center" data-aos="fade-right"><i class='bx bxl-twitter'></i>&nbsp; @AmitKum35394884</p>
+          <p class="d-flex justify-content-left align-items-center" data-aos="fade-right"><i class='bx bxl-instagram-alt' ></i>&nbsp; @AMITKUMAR0109</p>
+          <p class="d-flex justify-content-left align-items-center" data-aos="fade-right"><i class='bx bxl-gmail'></i>&nbsp; amitkumarbehera987@gmail.com</p>
+        </div>
+    </section>
+    
+    <footer>
+      <p>Made with <i class='bx bx-code-alt footer-bx'></i>  by Amit. 2023.</p>
+    </footer>
+
+    <!-- <Bootsrap Script CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Typed CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Scroll Aniation  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

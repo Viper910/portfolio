@@ -1,0 +1,181 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #1b1a17 !important;
+}
+@font-face {
+  font-family: league-gothic-regular;
+  src: url("/LeagueGothic/static/TTF/LeagueGothic-Regular.ttf");
+}
+
+@font-face {
+  font-family: league-gothic-italic;
+  src: url("/LeagueGothic/static/TTF/LeagueGothic-Italic.ttf");
+}
+
+@font-face {
+    font-family: pt-serif-regular;
+    src: url('/PT_Serif/PTSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: pt-serif-bold;
+    src: url('/PT_Serif/PTSerif-Bold.ttf');
+}
+.details {
+  justify-content: end;
+  text-align: center;
+}
+
+.navbar-brand {
+  padding: 1em !important;
+}
+
+.nav-item {
+  font-family: league-gothic-regular;
+  letter-spacing: 2px;
+  font-size: 1.2em !important;
+  padding-left: 1em;
+}
+
+.nav-link:hover {
+  color: #ff8303 !important;
+}
+
+.navbar {
+  background-color: #1b1a17;
+}
+
+.home {
+  height: 120% !important;
+}
+.intro {
+  color: #f0e3ca;
+  font-family: league-gothic-regular;
+}
+.name {
+  color: #ff8303;
+}
+
+.intro-student {
+  font-family: pt-serif-regular;
+}
+
+.homesection {
+  height: 90%;
+  padding: 2em;
+}
+
+
+.project-header {
+  font-family: league-gothic-regular;
+  color: #ff8303;
+  padding: 1em 1em 1em 0;
+}
+
+.project-card{
+    text-align: center;
+    width: 18rem;
+    border-color: #393E46 !important;
+    margin: 2em;
+}
+
+.project-cards{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card-title{
+    font-family:  league-gothic-regular;
+    letter-spacing: 1px;
+    color: #ff8303 !important;
+    font-size: 1.7em;
+}
+
+.project-card-text{
+    font-family: pt-serif-regular;
+    color: #f0e3ca !important;
+}
+
+.btn-primary{
+    color: #f0e3ca !important;
+    background-color: #A35709 !important;
+    border-color: #1b1a17 !important;
+    font-family: league-gothic-regular !important;
+    letter-spacing: 2px;
+}
+
+.btn-primary:hover{
+    background-color: #ff8303 !important;
+}
+
+.hvr-grow-shadow {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0) !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
+    -webkit-transition-duration: 0.3s !important;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5) !important;
+    -webkit-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+  }
+
+  #About{
+    color: white;
+  }
+
+  .keyword{
+    color: #ff79c6;
+  }
+
+  .function{
+    color: #50fa7b;
+  }
+
+  .string{
+    color: #f1fa8c;
+  }
+
+  .comment{
+    color: #6272a4;
+  }
+
+  .object{
+    color: #bd93f9;
+  }
+
+  #Contact{
+    color: #f0e3ca;
+  }
+
+  .bx{
+    font-size: 1.5em;
+    color: #f0e3ca;
+  }
+
+
+  #Contact.div.p{
+    font-family: pt-serif-regular;
+  }
+
+  footer{
+    text-align: center;
+    color: #393E46;
+    padding: 2.5em;
+  }
+
+  .footer-bx{
+    font-size: 16px !important;
+    color: #393E46;
+  }
+
+  .links{
+    text-decoration: none;
+    color: #f0e3ca;
+  }
