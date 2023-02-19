@@ -7,22 +7,22 @@ body {
 }
 @font-face {
   font-family: league-gothic-regular;
-  src: url("../LeagueGothic/static/TTF/LeagueGothic-Regular.ttf");
+  src: url("./LeagueGothic/static/TTF/LeagueGothic-Regular.ttf");
 }
 
 @font-face {
   font-family: league-gothic-italic;
-  src: url("../LeagueGothic/static/TTF/LeagueGothic-Italic.ttf");
+  src: url("./LeagueGothic/static/TTF/LeagueGothic-Italic.ttf");
 }
 
 @font-face {
     font-family: pt-serif-regular;
-    src: url('../PT_Serif/PTSerif-Regular.ttf');
+    src: url('./PT_Serif/PTSerif-Regular.ttf');
 }
 
 @font-face {
     font-family: pt-serif-bold;
-    src: url('../PT_Serif/PTSerif-Bold.ttf');
+    src: url('./PT_Serif/PTSerif-Bold.ttf');
 }
 .details {
   justify-content: end;
