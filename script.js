@@ -13,3 +13,5 @@ const skill = new Typed(".skills-section",{
   backSpeed: 70,
   loop: true,
 })
+
+
